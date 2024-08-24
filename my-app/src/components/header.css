@@ -1,0 +1,28 @@
+.header-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-inner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container a img {
+    margin-left: 10px;
+    width: 125px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    padding: 0 40px;
+    font-weight: 660;
+}
+
+.links a:hover {
+    cursor: pointer;
+    text-decoration: underline var(--standard-green);
+}
