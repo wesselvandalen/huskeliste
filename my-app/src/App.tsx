@@ -3,11 +3,12 @@ import TaskView from "./components/task-view";
 import Header from "./components/header";
 
 function App() {
-
     return (
         <div className="App">
-            <Header/>
-            <TaskView/>
+            <div className="inner-app">
+                <Header/>
+                <TaskView/>
+            </div>
         </div>
     );
 }

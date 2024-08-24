@@ -12,8 +12,7 @@ function Header() {
                         </a>
                     </div>
                     <div className="links">
-                        <a href="/home">Hjem</a>
-                        <a href="/about">Om prosjektet</a>
+                        <p>Din personlige to-do app.</p>
                     </div>
                 </div>
             </div>

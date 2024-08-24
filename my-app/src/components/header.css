@@ -2,6 +2,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
+    background-color: #f9f9f9;
 }
 
 .header-inner-content {
@@ -15,14 +16,9 @@
     width: 125px;
 }
 
-.links a {
+.links p {
     color: black;
-    text-decoration: none;
-    padding: 0 40px;
+    margin-bottom: 0;
+    padding-left: 10px;
     font-weight: 660;
-}
-
-.links a:hover {
-    cursor: pointer;
-    text-decoration: underline var(--standard-green);
 }

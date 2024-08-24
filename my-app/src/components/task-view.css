@@ -1,0 +1,131 @@
+/* Container for the entire task view */
+.task-view-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Main content area */
+.task-view-content {
+    width: 100%;
+    max-width: 600px; /* Limit the width for better readability */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Task input section */
+.task-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Input field for new tasks */
+.task-input-field {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Button to add a new task */
+.task-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #33bea6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.task-btn:hover {
+    background-color: #2ea690;
+    transform: scale(1.02);
+}
+
+/* Icon inside the add task button */
+.small-icon-task {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    filter: invert(1);
+}
+
+/* Container for the task list */
+.task-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Task list items */
+.task-list-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-element {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.task-element:last-child {
+    border-bottom: none;
+}
+
+.task-element > * {
+    margin-right: 10px;
+}
+
+/* Checkbox styling */
+.checkbox {
+    cursor: pointer;
+}
+
+/* Strike-through text for completed tasks */
+.task-element span {
+    flex: 1;
+    font-size: 16px;
+}
+
+.task-element span.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Button to remove a task */
+.btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f6f;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #e55d5d;
+    transform: scale(1.02);
+}
+
+/* Icon inside the remove task button */
+.small-icon-remove {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    filter: invert(1);
+}
