@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "huskeliste",
   "version": "0.1.0",
   "homepage": "https://wesselvandalen.github.io/react-gh-pages",
   "private": true,
@@ -20,10 +20,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "my-app/node_modules/.bin/react-scripts start",
-    "build": "my-app/node_modules/.bin/react-scripts build",
-    "test": "my-app/node_modules/.bin/react-scripts test",
-    "eject": "my-app/node_modules/.bin/react-scripts eject"
+    "start": "node_modules/.bin/react-scripts start",
+    "build": "node_modules/.bin/react-scripts build",
+    "test": "node_modules/.bin/react-scripts test",
+    "eject": "node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
