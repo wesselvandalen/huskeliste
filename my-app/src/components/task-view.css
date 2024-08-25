@@ -129,3 +129,9 @@
     margin-right: 5px;
     filter: invert(1);
 }
+
+@media screen and (max-width: 1080px) {
+    .task-btn {
+        width: 30%;
+    }
+}
