@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.23480e44.css",
-    "main.js": "/react-gh-pages/static/js/main.97997805.js",
-    "static/js/453.ed3810f9.chunk.js": "/react-gh-pages/static/js/453.ed3810f9.chunk.js",
-    "static/media/huskeliste-logo-wide.png": "/react-gh-pages/static/media/huskeliste-logo-wide.a5de8fa08f5553604872.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.23480e44.css.map": "/react-gh-pages/static/css/main.23480e44.css.map",
-    "main.97997805.js.map": "/react-gh-pages/static/js/main.97997805.js.map",
-    "453.ed3810f9.chunk.js.map": "/react-gh-pages/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/huskeliste/static/css/main.23480e44.css",
+    "main.js": "/huskeliste/static/js/main.41539e86.js",
+    "static/js/453.ed3810f9.chunk.js": "/huskeliste/static/js/453.ed3810f9.chunk.js",
+    "static/media/huskeliste-logo-wide.png": "/huskeliste/static/media/huskeliste-logo-wide.a5de8fa08f5553604872.png",
+    "index.html": "/huskeliste/index.html",
+    "main.23480e44.css.map": "/huskeliste/static/css/main.23480e44.css.map",
+    "main.41539e86.js.map": "/huskeliste/static/js/main.41539e86.js.map",
+    "453.ed3810f9.chunk.js.map": "/huskeliste/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23480e44.css",
-    "static/js/main.97997805.js"
+    "static/js/main.41539e86.js"
   ]
 }
