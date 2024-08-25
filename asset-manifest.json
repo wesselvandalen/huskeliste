@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.23480e44.css",
+    "main.js": "/react-gh-pages/static/js/main.97997805.js",
+    "static/js/453.ed3810f9.chunk.js": "/react-gh-pages/static/js/453.ed3810f9.chunk.js",
+    "static/media/huskeliste-logo-wide.png": "/react-gh-pages/static/media/huskeliste-logo-wide.a5de8fa08f5553604872.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.23480e44.css.map": "/react-gh-pages/static/css/main.23480e44.css.map",
+    "main.97997805.js.map": "/react-gh-pages/static/js/main.97997805.js.map",
+    "453.ed3810f9.chunk.js.map": "/react-gh-pages/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23480e44.css",
+    "static/js/main.97997805.js"
+  ]
+}
